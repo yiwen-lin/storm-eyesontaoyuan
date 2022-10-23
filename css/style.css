@@ -3,8 +3,7 @@
 /*---------------------------------- */
 
 /* 全站字體 */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400&family=Noto+Serif+TC:wght@200;300;400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400&family=Noto+Serif+TC:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
 @import url("reset.css");
 @import url("assets.css");
 @import url("margins.css");
@@ -13,9 +12,9 @@
 
 
 body{
-    font-family: 'Noto Serif TC', sofia-pro, sans-serif;
-    /* font-family: 'Noto Serif TC', serif,'Noto Sans TC'; */
-    background: #fff;
+    font-family: 'Playfair Display','Noto Serif TC', serif;
+    /* font-family: 'Noto Sans TC',sans-serif; */
+    background: #fff;g
 }
 
 .darkness{
@@ -116,8 +115,14 @@ body #loader .loading .progress .bar-loading {
     width: 100%;
     display: table-cell;
     vertical-align: middle;
+    padding-bottom: 5%;
 }
- 
+@media (max-width: 769px) {
+    .inner {
+        padding-bottom: 20%;
+    }
+}
+
 main {
     width: 100%;
     height: 100%;
@@ -514,6 +519,12 @@ html.msie a:hover {
 .container{
     width: 80%;
     margin-left: 10%;
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 88%;
+        margin-left: 6%;
+    }
 }
 
 .grid-item{
@@ -1035,11 +1046,17 @@ html.msie a:hover {
   }
 
 
-  footer{
+  footer {
       width: 100%;
       color: #fff;
       padding: 90px 0;
   }
+
+@media only screen and (max-width: 768px) {
+    footer {
+        padding: 60px 0;
+    }
+}
 
 
   .footer-info a{
@@ -1057,12 +1074,19 @@ html.msie a:hover {
       line-height: 35px;
   }
 
-  footer .copyright{
+  footer .copyright {
       opacity: .6;
       font-size: 15px;
       margin-top: 24px;
       font-weight: 400;
+      padding: 0 15px;
   }
+
+@media only screen and (max-width: 768px) {
+    footer .copyright {
+        text-align: center;
+    }
+}
 
   footer .copyright p{
     font-size: 17px;
@@ -1087,16 +1111,35 @@ footer .email{
     text-decoration: underline !important;
 }
 
-  footer .uptotop:hover{
+footer .uptotop:hover{
     opacity: 1;
 }
 
-  footer .uptotop i{
+footer .uptotop i{
     margin-left: 15px;
-  }
-  
+}
 
-  .full-image{
+footer .footer-a {
+    font-size: 16px;
+    color: #666;
+}
+@media only screen and (max-width: 768px) {
+    footer .footer-a {
+        text-align: center;
+    }
+}
+
+footer .footer-a span {
+    border: 1px solid #666;
+    display: inline-block;
+    padding: 4px 8px;
+    line-height: 1;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+
+.full-image{
     width: 100%;
     position: relative;
     z-index: 0;
@@ -1121,14 +1164,37 @@ footer .email{
     color: #fff;
     margin-top: 30px;
     font-size: 75px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 34px;
 }
 
 .full-text span{
     opacity: .6;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
+    font-family: 'Noto Sans TC',sans-serif;
+    letter-spacing: 2px;
+}
+.full-text .main-title {
+    border-bottom: 1px solid #aaa;
+    width: 500px;
+    margin:auto;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.full-text .main-title h4 {
+    font-size: 18px;
+}
+.full-text .main-title h5 {
+    opacity: .6;
+    font-weight: 300;
+}
+@media only screen and (max-width: 768px) {
+    .full-text .main-title {
+        width: 76%;
+        margin: 0 auto 20px;
+        padding-bottom: 10px;
+    }
 }
 
 .full-image .image{
@@ -2193,9 +2259,6 @@ footer .email{
         width: 60%;
     }
 
-
-
-
 }
 
 
@@ -2214,7 +2277,8 @@ footer .email{
     }
 
     .uptotop{
-        float: left;
+        /* float: left; */
+        text-align: center;
     }
 
     .teammates .team .image {
@@ -2720,7 +2784,7 @@ footer .email{
     }
 
     .slide-arrow {
-        top: 74%;
+        top: 84%;
     }
     
     #wide-slider .slide-content .title {
@@ -2772,7 +2836,7 @@ footer .email{
     }
 
     .full-text span {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .page-header.type-two .title {
@@ -2790,8 +2854,8 @@ footer .email{
     }
 
     .hero h1 {
-        font-size: 36px;
-        line-height: 43px;
+        font-size: 46px;
+        line-height: 60px;
     }
 
     .forslide .menu__item-inner {
@@ -2811,11 +2875,15 @@ footer .email{
     }
 
     .showcase .bullets ul li.focus {
-        font-size: 150px;
+        font-size: 80px;
     }
 
     .showcase .swiper-slide .slide-content .title {
-        font-size: 32px;
+        font-size: 40px;
+    }
+
+    .showcase .swiper-slide .slide-content span.category {
+        margin-bottom: 0;
     }
 
     .showcase .swiper-slide .slide-content p {
@@ -2824,11 +2892,11 @@ footer .email{
     }
 
     .showcase .swiper-slide .slide-content {
-        width: 50%;
+        width: 60%;
     }
 
     .showcase .bullets ul li.focus {
-        margin: 30px 0 60px;
+        margin: 20px 5px 40px;
     }
 
 
@@ -2858,29 +2926,30 @@ footer .email{
     }
 
     .showcase .bullets ul li.focus {
-        font-size: 139px;
+        /* font-size: 139px; */
     }
 
     .showcase .swiper-slide .slide-content .title {
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .showcase .swiper-slide .slide-content p {
-        line-height: 26px;
+        /* line-height: 26px; */
         font-size: 15px;
+        margin-top: 10px;
     }
 
     .showcase .swiper-slide .slide-content {
-        width: 63%;
-        margin-left: 39%;
+        /* width: 63%;
+        margin-left: 39%; */
     }
 
     .showcase .bullets ul li.focus {
-        margin: 40px 0 60px;
+        /* margin: 40px 0 60px; */
     }
 
     .slide-arrow {
-        top: 74%;
+        /* top: 74%; */
     }
 
 
