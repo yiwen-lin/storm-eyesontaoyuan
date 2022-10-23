@@ -115,7 +115,7 @@ body #loader .loading .progress .bar-loading {
     width: 100%;
     display: table-cell;
     vertical-align: middle;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 @media (max-width: 769px) {
     .inner {
@@ -1169,18 +1169,18 @@ footer .footer-a span {
 }
 
 .full-text span{
-    opacity: .6;
+    opacity: .7;
     font-size: 18px;
     font-weight: 400;
     font-family: 'Noto Sans TC',sans-serif;
     letter-spacing: 2px;
 }
 .full-text .main-title {
-    border-bottom: 1px solid #aaa;
+    border-top: 1px solid #aaa;
     width: 500px;
     margin:auto;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
+    padding-top: 20px;
+    margin-top: 60px;
 }
 .full-text .main-title h4 {
     font-size: 18px;
@@ -1192,8 +1192,9 @@ footer .footer-a span {
 @media only screen and (max-width: 768px) {
     .full-text .main-title {
         width: 76%;
-        margin: 0 auto 20px;
-        padding-bottom: 10px;
+        margin-top: 40px;
+        /* margin: 0 auto 20px; */
+        /* padding-bottom: 10px; */
     }
 }
 

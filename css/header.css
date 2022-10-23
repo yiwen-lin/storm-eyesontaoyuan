@@ -48,6 +48,11 @@ header.animate{
 header.sticky .header-container{
     padding: 32px 90px 60px;
 }
+@media (max-width: 769px) {
+    header.sticky .header-container{
+        padding: 24px 20px 60px;
+    }
+}
 
 header.bg-image-version .nav-icon span{
     background: #fff;
@@ -138,6 +143,12 @@ header .logo{
     pointer-events: initial;
     float: right;
     padding-top: 5px;
+    
+}
+@media (max-width: 769px) {
+    .nav-icon{
+        padding-top: 12px;
+    }
 }
 
 .nav-icon-inner{

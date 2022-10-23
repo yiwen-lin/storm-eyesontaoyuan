@@ -252,16 +252,6 @@ html.showcase, .showcase body {
       left: 0;
       top: 0;
   }
-.p1-kv-overlays {
-  background: url(../images/portfolio/work-1/index-1kv-1.jpg);
-  background-size: cover;
-}
-@media screen and (max-width: 768px) {
-  .p1-kv-overlays {
-    background: url(../images/portfolio/work-1/kv-mb.jpg);
-    background-size: cover;
-  }
-}
 
 
   .slide-arrow{
@@ -772,7 +762,7 @@ transform: rotate(-20deg) translateY(400px) !important;
   text-align: center;
 }
 
-/* SLIDE IMAGES */
+/* SLIDE img */
 .slider-images .img1 {
   background: url(../images/portfolio/work-1/index-1kv.jpg) center no-repeat;
   background: cover;
@@ -802,6 +792,29 @@ transform: rotate(-20deg) translateY(400px) !important;
   background: cover;
 }
 
+/* work kv img */
+.p1-kv-overlays {
+  background: url(../images/portfolio/work-1/index-1kv-1.jpg);
+  background-size: cover;
+}
+.p2-kv-overlays {
+  background: url(../images/portfolio/work-2/index-2kv.jpg);
+  background-size: cover;
+}
+.p3-kv-overlays {
+  background: url(../images/portfolio/work-3/index-3kv.jpg);
+  background-size: cover;
+}
+.p4-kv-overlays {
+  background: url(../images/portfolio/work-4/index-4kv-1.jpg);
+  background-size: cover;
+}
+.p5-kv-overlays {
+  background: url(../images/portfolio/work-5/index-5kv-1.jpg);
+  background-size: cover;
+}
+
+
 /******************* 768 *********************/
 @media only screen and (max-width: 768px) {
   .showcase .bullets {
@@ -818,7 +831,7 @@ transform: rotate(-20deg) translateY(400px) !important;
     display: inline;
   }
 
-  /* SLIDE IMAGES */
+  /* SLIDE img */
   .slider-images .img1 {
     background: url(../images/portfolio/work-1/index-1kv-mb.jpg) center no-repeat;
     background: cover;
@@ -842,5 +855,23 @@ transform: rotate(-20deg) translateY(400px) !important;
   .slider-images .img6 {
     background: url(../images/portfolio/work-6/index-6kv-mb.jpg) center no-repeat;
     background: cover;
+  }
+
+  /* work kv img */
+  .p1-kv-overlays {
+    background: url(../images/portfolio/work-1/kv-mb.jpg);
+    background-size: cover;
+  }
+  .p3-kv-overlays {
+    background: url(../images/portfolio/work-3/index-3kv-1-mb.jpg);
+    background-size: cover;
+  }
+  .p4-kv-overlays {
+    background: url(../images/portfolio/work-4/index-4kv-1-mb.jpg);
+    background-size: cover;
+  }
+  .p5-kv-overlays {
+    background: url(../images/portfolio/work-5/index-5kv-mb.jpg);
+    background-size: cover;
   }
 }
