@@ -813,6 +813,10 @@ transform: rotate(-20deg) translateY(400px) !important;
   background: url(../images/portfolio/work-5/index-5kv-1.jpg);
   background-size: cover;
 }
+.p6-kv-overlays {
+  background: url(../images/portfolio/work-6/index-6kv-2.jpg);
+  background-size: cover;
+}
 
 
 /******************* 768 *********************/
@@ -872,6 +876,10 @@ transform: rotate(-20deg) translateY(400px) !important;
   }
   .p5-kv-overlays {
     background: url(../images/portfolio/work-5/index-5kv-mb.jpg);
+    background-size: cover;
+  }
+  .p6-kv-overlays {
+    background: url(../images/portfolio/work-6/index-6kv.jpg);
     background-size: cover;
   }
 }

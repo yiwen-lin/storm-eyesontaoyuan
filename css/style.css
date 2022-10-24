@@ -115,7 +115,7 @@ body #loader .loading .progress .bar-loading {
     width: 100%;
     display: table-cell;
     vertical-align: middle;
-    padding-bottom: 10%;
+    padding-bottom: 7%;
 }
 @media (max-width: 769px) {
     .inner {
@@ -1176,7 +1176,7 @@ footer .footer-a span {
     letter-spacing: 2px;
 }
 .full-text .main-title {
-    border-top: 1px solid #aaa;
+    border-top: 1px solid #ccc;
     width: 500px;
     margin:auto;
     padding-top: 20px;
