@@ -249,6 +249,10 @@ html.showcase, .showcase body {
       top: 0;
   }
 
+  .route-7 .overlays:before{
+    background: rgba(0, 0, 0, 0.30);
+  }
+
 
   .slide-arrow{
       color: #fff;
@@ -813,6 +817,10 @@ transform: rotate(-20deg) translateY(400px) !important;
   background: url(../images/portfolio/work-6/index-6kv-2.jpg);
   background-size: cover;
 }
+.p7-kv-overlays {
+  background: url(../images/portfolio/work-7/index-7kv-1.jpg);
+  background-size: cover;
+}
 
 
 /******************* 768 *********************/
@@ -858,6 +866,10 @@ transform: rotate(-20deg) translateY(400px) !important;
     background: url(../images/portfolio/work-6/index-6kv-mb.jpg) center no-repeat;
     background: cover;
   }
+  .slider-images .img7 {
+    background: url(../images/portfolio/work-7/index-7kv-mb.jpg) center no-repeat;
+    background: cover;
+  }
 
   /* work kv img */
   .p1-kv-overlays {
@@ -878,6 +890,10 @@ transform: rotate(-20deg) translateY(400px) !important;
   }
   .p6-kv-overlays {
     background: url(../images/portfolio/work-6/index-6kv.jpg);
+    background-size: cover;
+  }
+  .p7-kv-overlays {
+    background: url(../images/portfolio/work-7/index-7kv-1-mb.jpg);
     background-size: cover;
   }
 }
