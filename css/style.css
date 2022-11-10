@@ -140,7 +140,8 @@ main {
 }
 
 p{
-    font-size: 20px;
+    font-size: 18px;
+    line-height:1.7;
 }
 
 .text-widget h3 {
@@ -189,7 +190,7 @@ p{
 }
 
 p{
-    color: #000;
+    color: #555;
 }
 
 .experience .date {
@@ -281,7 +282,6 @@ p{
 	-ms-transform: scale(.15);
 	-o-transform: scale(.15);
 }
-
 
 #cursor .cursor__label {
 	display: block;
@@ -2275,16 +2275,59 @@ footer .footer-a span {
 }
 
 .text-widget.works p{
-    padding-top: 18px;
+    padding-top: 12px;
 }
 
 .lightbox img{
     width: 100%;
 }
+.lightbox p {
+    margin-top: 8px;
+    color: #888;
+    font-size: 16px;
+    font-weight: 300;
+    font-family:'Noto Sans TC',sans-serif;
+}
+
+.info-text {
+    font-family:'Noto Sans TC',sans-serif;
+    font-weight: 300;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 2;
+    position: relative;
+}
+.info-text:before {
+    display: block;
+    content: "";
+    position:absolute;
+    top:0;
+    left:calc(100% / 2 - 50px);
+    width: 100px;
+    height: 2px;
+    background-color: #b3d6d5;
+}
+.info-text:after {
+    display: block;
+    content: "";
+    position:absolute;
+    bottom:0;
+    left:calc(100% / 2 - 50px);
+    width: 100px;
+    height: 2px;
+    background-color: #b3d6d5;
+}
 
 .work-subtext{
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 46px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #b3d6d5;
+}
+@media only screen and (max-width: 768px) {
+    .work-subtext{
+        font-size: 32px;
+    } 
 }
 
 .darkness .work-subtext{
