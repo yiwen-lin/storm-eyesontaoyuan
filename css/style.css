@@ -145,12 +145,12 @@ p{
 }
 
 .text-widget h3 {
-    font-size: 18px;
-    font-weight: 400;
-    opacity: .5;
+    font-size: 22px;
+    font-weight: 500;
+    opacity: 1;
     line-height: 30px;
-    color: #000;
-    padding-top: 8px;
+    color: #a6cece;
+    /* padding-top: 8px; */
 }
 
 .darkness .text-widget h3{
@@ -1265,7 +1265,7 @@ footer .footer-a span {
 }
 
 .full-image.medium .image{
-    height: 70vh;
+    height: 80vh;
 }
 
 
@@ -1303,17 +1303,20 @@ footer .footer-a span {
 .page-header.type-two  .little-title{
     color: #000;
     opacity: .4;
-    font-size: 18px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .darkness .page-header.type-two .little-title, .darkness .page-header.type-two .title{
     color: #fff;
 }
   
-.page-header.type-two .title{
+.page-header.type-two .title {
     color: #000;
-    font-weight: 700;
-    font-size: 100px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.3;
+    margin-top: 20px;
 }
 
 .about-image.type-one{
@@ -1409,7 +1412,7 @@ footer .footer-a span {
 
 .services-type-two ul li{
     list-style: none;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 28px;
     opacity: .5;
 }
@@ -1418,13 +1421,20 @@ footer .footer-a span {
     color: #fff;
 }
 
-.services-type-two:not(.clients) ul li:first-child{
+.services-type-two:not(.clients) ul li:nth-child(2){
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 30px;
     opacity: 1;
 }
 
+.services-type-two li a {
+    cursor: pointer;
+    color: #000;
+}
+/* .services-type-two li a:hover {
+    color:#b3d6d6;
+} */
 
 
 .teammates .team figure{
@@ -1851,10 +1861,11 @@ footer .footer-a span {
 
 
 .subtext h2{
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 45px;
-    opacity: .7;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    opacity: 1;
+    color: #b3d6d6;
 }
 
 .subtext{
@@ -2423,12 +2434,13 @@ footer .footer-a span {
     }
  
     .page-header.type-two .title {
-        font-size: 70px;
+        font-size: 60px;
+        line-height: 1.3;
     }
 
     .subtext h2 {
-        font-size: 27px;
-        line-height: 41px;
+        font-size: 24px;
+        line-height: 36px;
     }
 
     .showcase .swiper-slide .slide-content {
