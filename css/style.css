@@ -2278,14 +2278,15 @@ footer .footer-a span {
     color:#fff;
 }
 
-.text-widget.works h3{
+.text-widget.works h3 {
     font-size: 32px;
     font-weight: 600;
     line-height: 48px;
     opacity: 1;
+    padding-top: 10px;
 }
 
-.text-widget.works p{
+.text-widget.works p {
     padding-top: 12px;
 }
 
