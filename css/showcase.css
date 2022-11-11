@@ -809,6 +809,10 @@ transform: rotate(-20deg) translateY(400px) !important;
   background: url(../images/portfolio/work-4/index-4kv-1.jpg);
   background-size: cover;
 }
+.p4-1-kv-overlays {
+  background: url(../images/portfolio/work-4/11.jpg);
+  background-size: cover;
+}
 .p5-kv-overlays {
   background: url(../images/portfolio/work-5/index-5kv-1.jpg);
   background-size: cover;
@@ -819,6 +823,10 @@ transform: rotate(-20deg) translateY(400px) !important;
 }
 .p7-kv-overlays {
   background: url(../images/portfolio/work-7/index-7kv-1.jpg);
+  background-size: cover;
+}
+.p7-1-kv-overlays {
+  background: url(../images/portfolio/work-7/14.jpg);
   background-size: cover;
 }
 
