@@ -1862,8 +1862,8 @@ footer .footer-a span {
 
 .subtext h2{
     font-weight: 500;
-    font-size: 22px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 38px;
     opacity: 1;
     color: #b3d6d6;
 }
@@ -3129,3 +3129,27 @@ footer .footer-a span {
         display:none;
     }
 }
+
+
+/* about video */
+@media only screen and (max-width: 768px) {
+    #viedo-block .row,
+    #viedo-block .slider-for {
+        padding: 0;
+    }
+}
+
+/* slider */
+.slick-dots {
+    display:none!important;
+}
+.slider-for {
+    padding: 0 15px;
+}
+.slick-arrow {
+    display: none!important;
+}
+/* .slick-slide img {
+    width: 95%;
+    margin: auto;
+} */
