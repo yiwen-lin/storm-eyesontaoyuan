@@ -2830,7 +2830,7 @@ footer .footer-a span {
 }
 
 .services-type-two.top_120{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .small-title{
@@ -3132,15 +3132,15 @@ footer .footer-a span {
 
 
 /* about video */
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     #viedo-block .row,
     #viedo-block .slider-for {
         padding: 0;
     }
-}
+} */
 
 /* slider */
-.slick-dots {
+/* .slick-dots {
     display:none!important;
 }
 .slider-for {
@@ -3148,8 +3148,44 @@ footer .footer-a span {
 }
 .slick-arrow {
     display: none!important;
-}
+} */
 /* .slick-slide img {
     width: 95%;
     margin: auto;
 } */
+
+
+/* strom video */
+.videoSlide {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.videoSlide .iframeVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video .videoUl li {
+    opacity: .7;
+    transition: .3s;
+    list-style: none;
+} 
+
+.video .videoUl li:hover {
+    opacity: 1;
+    transition: .3s;
+}
+
+.video .videoUl li img {
+    width: 100%;
+    display: block;
+}
+
+.video .videoUl .currentLi {
+    opacity: 1
+}
