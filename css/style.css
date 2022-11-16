@@ -1106,11 +1106,11 @@ html.msie a:hover {
   }
 
   footer .copyright {
-      opacity: .6;
+      opacity: .8;
       font-size: 15px;
-      margin-top: 24px;
+      margin: 0px;
       font-weight: 400;
-      padding: 0 15px;
+      padding: 0px;
   }
 
 @media only screen and (max-width: 768px) {
@@ -1151,8 +1151,8 @@ footer .uptotop i{
 }
 
 footer .footer-a {
-    font-size: 16px;
-    color: #666;
+    font-size: 13px;
+    color: #ccc;
 }
 @media only screen and (max-width: 768px) {
     footer .footer-a {
@@ -1161,12 +1161,12 @@ footer .footer-a {
 }
 
 footer .footer-a span {
-    border: 1px solid #666;
+    border: 1px solid #ddd;
     display: inline-block;
-    padding: 4px 8px;
+    padding: 2px 5px;
     line-height: 1;
     margin-left: 10px;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 
